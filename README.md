@@ -1,16 +1,20 @@
 # Business Intelligence Dashboard - Lifesight
 
-## Project Overview
-This project is a Business Intelligence (BI) dashboard built to analyze company sales and marketing data. The goal is to provide insights into which ad partners (TikTok, Google, Facebook) and marketing tactics drive the most revenue, new customers, and profits. By integrating sales and advertising data, the dashboard helps the business make data-driven marketing decisions.
+## Overview
+This repository contains a high-level marketing intelligence dashboard designed to analyze performance across multiple digital channels and guide strategic decisions on budget allocation and campaign optimization. The dashboard helps identify which marketing channels deliver the best ROI and provides a foundation for more detailed future analyses.
 
-## Features
-- Combines sales and ad campaign data from multiple platforms.
-- Tracks key performance indicators (KPIs) like total revenue, gross profit, cost of goods sold (COGS), impressions, clicks, and attributed revenue.
-- Identifies high-performing ad tactics and channels.
-- Provides visualizations to easily compare performance across platforms and time periods.
-- Helps optimize marketing spend and strategy.
+## Dashboard Access
+Live Dashboard Link: https://lookerstudio.google.com/reporting/81c69053-4a30-47de-bb2a-ce8397a8bd74
 
-## Data Sources
+[!Dashboard]()
+
+## Purpose
+- Evaluate the performance of campaigns on TikTok, Google, and Facebook.
+- Understand which channels to focus on for maximizing revenue and customer acquisition.
+- Provide insights on key metrics such as impressions, clicks, spend, revenue, CTR, CPC, and ROAS.
+- Enable data-driven decisions for scaling campaigns efficiently.
+
+## Raw Data Sources
 - **Business Data:** Sales, orders, new customers, revenue, and profit information.
 - **TikTok Ads:** Campaign performance including impressions, clicks, spend, and attributed revenue.
 - **Google Ads:** Campaign performance including impressions, clicks, spend, and attributed revenue.
@@ -22,9 +26,13 @@ This project is a Business Intelligence (BI) dashboard built to analyze company 
 - **COGS:** Cost of producing the goods sold.
 - **Impressions & Clicks:** User engagement with ad campaigns.
 - **Attributed Revenue:** Revenue attributed to specific ad campaigns.
+- **CTR (Click-Through Rate):** Effectiveness of ads in generating clicks.
+- **CPC (Cost per Click):** Cost efficiency of ad campaigns.
+- **ROAS (Return on Ad Spend):** Revenue generated per unit of ad spend.
+
 
 ## Technology Stack
-- **Data Cleaning & Preparation:** Python / SQL (optional)
+- **Data Cleaning & Preparation:** Python / Google Colab
 - **Dashboard & Visualization:** Looker Studio (Google Data Studio)
 - **Version Control:** Git & GitHub
 
@@ -35,10 +43,16 @@ To enable the business to:
 - Track daily, weekly, and monthly performance metrics.
 - Make informed decisions based on data-driven insights.
 
+## Future Improvements
+- Incorporate program-level analysis for each marketing channel.
+- Include geographical and demographic performance insights.
+- Integrate additional KPIs and predictive analytics to forecast campaign ROI.
+- Enhance the dashboard with more granular reporting for better optimization.
+
 ## Usage
 1. Import sales and ad data into the dashboard.
 2. Visualize KPIs and compare campaign performance across platforms.
 3. Use insights to adjust marketing strategies and budget allocation.
 
 ## Author
-Ankit Pallav
+Ankit Pallav | ankitpallav2602@gmail.com
