@@ -6,7 +6,7 @@ This repository contains a high-level marketing intelligence dashboard designed 
 ## Dashboard Access
 Live Dashboard Link: https://lookerstudio.google.com/reporting/81c69053-4a30-47de-bb2a-ce8397a8bd74
 
-[!Dashboard]()
+![Dashboard Preview](Dashboard_Report.jpg)
 
 ## Purpose
 - Evaluate the performance of campaigns on TikTok, Google, and Facebook.
